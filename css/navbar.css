@@ -1,0 +1,46 @@
+.navbar-brand {
+    font-family:"Playfair Display SC";
+    font-size: 1.8em;
+    font-weight: 900;
+
+    padding: 0 0em .2em 1em;
+}
+
+h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-variant: small-caps;
+    font-weight: 700;
+    padding: .2em .5em 0 .5em;
+}
+
+.navbar-nav :hover{
+    background: -webkit-linear-gradient(107deg, #0d0091, #c000cf, #e10034, #f09d00, #e8f407, #00de5c);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 1200% 1200%;
+    -webkit-animation: AnimationName 4s ease infinite;
+    -moz-animation: AnimationName 4s ease infinite;
+    -o-animation: AnimationName 4s ease infinite;
+    animation: AnimationName 4s ease infinite;
+}
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 51%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 51%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 51%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 51%}
+}
+@-o-keyframes AnimationName {
+    0%{background-position:0% 51%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 51%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 51%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 51%}
+} 
+

@@ -1,0 +1,139 @@
+/* font-family: 'Assistant', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Playfair Display SC', serif; */
+
+html {
+    box-sizing: border-box;
+  }
+  *,*::before,*::after {
+    box-sizing: inherit;
+  }
+  body {
+    margin: 0;
+  }
+  .wave-container {
+    background: #EEE;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+  }
+  .wave-container > svg {
+    display: block;
+  }
+
+.waves-top {
+    position: sticky;
+    margin-top: -5vh;
+}
+
+.waves-bottom{
+    position: relative;
+    bottom: 12.6vh;
+}
+
+
+
+
+
+/*********/
+/* HEADER CONTENT */
+/*********/
+.hero-holder {
+    /* background-color: violet; */
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    /* align-items: 100%; */
+    margin-top: 0;
+}
+
+.hero-content{
+    /* background-color: tomato; */
+    position: relative;
+    text-align: center;
+
+}
+
+.headerLine1 {
+    margin-top: 10vh;
+}
+
+h1 {
+    font-family: 'Playfair Display SC', serif;
+    font-weight: 900;
+    background: -webkit-linear-gradient(rgb(245, 244, 244), rgb(158, 156, 156));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 82px;
+
+    margin-top: -6vh;
+}
+
+.hero-content hr {
+    height: 2px;
+    border-radius:3px;
+    color: white;
+    
+    width: 110%;
+    margin-left:-5%;
+}
+
+.subheader {
+    display: flex;
+    justify-content: space-between;
+}
+
+.subheader h2 {
+    font-family: 'Montserrat', sans-serif;
+    background: -webkit-linear-gradient(rgb(179, 179, 179), rgb(238, 238, 238));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-variant: small-caps;
+}
+
+#projectsButton{
+    font-family:"Playfair Display SC", serif;
+    color: white;
+    font-size: 1.5em;
+    letter-spacing: .1em;
+    
+    border-radius: 10px;
+    background-color: rgba(170, 170, 170, 0.1);
+
+    margin-top: 30px;
+    padding: 0.4em 2em .5em 2em;
+    position:relative;
+    z-index:3;
+}
+
+.btnSeeWork :hover {
+    background: linear-gradient(270deg, #00f6ff, #00a6be, #00be0c, #26e5a0);
+    background-size: 800% 800%;
+    -webkit-animation: buttonGradient 11s ease infinite;
+    -moz-animation: buttonGradient 11s ease infinite;
+    -o-animation: buttonGradient 11s ease infinite;
+    animation: buttonGradient 11s ease infinite;
+}
+@-webkit-keyframes buttonGradient {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes buttonGradient {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-o-keyframes buttonGradient {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes buttonGradient {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}

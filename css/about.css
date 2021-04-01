@@ -1,0 +1,235 @@
+#about {
+    background: linear-gradient(180deg, rgba(33,37,41,255) 10%, rgba(1,13,78,1) 40%, rgba(1,22,138,1) 70%, rgba(1,13,78,1) 88%, rgba(33,37,41,255) 100%) !important;
+    margin-top:0;
+    padding-bottom: 1em;
+}
+
+/* #about h1 {
+    padding-top: 0.4em;
+    padding-left: .2em;
+    font-style: italic;
+    font-size: 7em;
+} */
+
+.aboutTitle {
+    text-align:center;
+    padding: 5em 0 1.5em 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.aboutTitle hr {
+    background-color: White;
+    height: 5px;
+    width: 25%;
+    align-self: center;
+    border-radius: 5px;
+}
+
+#aboutHeader {
+    color: white;
+    font-family: 'Playfair Display SC', serif;
+    font-weight: 900;
+    font-size: 4em;
+}
+
+/* COLUMN PROPERTIES */
+/***************/
+.aboutCol {
+    margin-left: 1em;
+    margin-right: 1em;
+    border-radius: 15px;
+}
+
+
+/* COLUMN ONE --- HEADSHOT AND FACT */
+/***************/
+
+.profileDisplay {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: space-around;
+
+}
+
+.headShotHolder {
+    display: flex;
+    justify-content: center;
+}
+
+.imgBorderGrad {
+    border-radius: 50%;
+    background: linear-gradient(90deg, rgba(62,25,161,1) 0%, rgba(36,208,189,1) 100%);    
+    width: 100%;
+    padding-top: 50%;
+    padding-bottom:50%;
+    position: relative;
+}
+
+#aboutHeadShot {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    border-radius:50%;
+    width:90%;
+}
+
+
+.btnAboutLink {
+    background: linear-gradient(270deg, rgba(248,86,120,1) 0%, rgba(160,50,152,1) 50%, rgba(87,23,165,1) 100%);;
+    margin-top: 1em;
+    border:none;
+    border-radius: 15px;
+    width: 60%;
+    align-self: center;
+    padding: .6em 0 0 0;
+
+    text-decoration: none;
+}
+
+.btnAboutLink h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight:500;
+    color: white;
+    font-size: 1.2em;
+}
+
+
+
+/* COLUMN TWO --- ABOUT ME COPY */
+/***************/
+#copyTitle {
+    font-size:1.8em;
+    font-weight: 700;
+}
+
+
+
+/* COLUMN THREE --- SKILLS */
+/***************/
+
+.skillIcon {
+    width: 15%;
+    margin: 1em .3em;
+    padding: .5em;
+    
+    border-radius: 50%;
+} 
+
+#html5Icon {
+    background-color: #E34F26;
+    transition: all .5s;
+}
+#html5Icon:hover {
+    background-color: rgba(36,208,189,1);
+    transition: all .5s;
+}
+
+#css3Icon {
+    background-color: #1572B6;
+    transition: all .5s;
+}
+#css3Icon:hover {
+    background-color: rgba(36,208,189,1);
+    transition: all .5s;
+}
+
+#javaScriptIcon {
+    background-color: #F7DF1E;
+    transition: all .5s;
+}
+#javaScriptIcon:hover {
+    background-color: rgba(36,208,189,1);
+    transition: all .5s;
+}
+
+#bootStrapIcon {
+    background-color: #7952B3;
+    transition: all .5s;
+}
+#bootStrapIcon:hover {
+    background-color: rgba(36,208,189,1);
+    transition: all .5s;
+}
+
+#codeWarsIcon {
+    background-color: #B1361E;
+    transition: all .5s
+}
+#codeWarsIcon:hover {
+    background-color: rgba(36,208,189,1);
+    transition: all .5s;
+}
+
+#mTeamsIcon {
+    background-color: #6264A7;
+    transition: all .5s;
+}
+#mTeamsIcon:hover {
+    background-color: rgba(36,208,189,1);
+    transition: all .5s;
+}
+
+#mExcelIcon {
+    background-color: #217346;
+    transition: all .5s;
+}
+#mExcelIcon:hover {
+    background-color: rgba(36,208,189,1);
+    transition: all .5s;
+}
+
+#gSheetsIcon {
+    background-color: #34A853;
+    transition: all .5s;
+}
+#gSheetsIcon:hover {
+    background-color: rgba(36,208,189,1);
+    transition: all .5s;
+}
+
+#mPointIcon {
+    background-color: #B7472A;
+    transition: all .5s;
+}
+#mPointIcon:hover {
+    background-color: rgba(36,208,189,1);
+    transition: all .5s;
+}
+
+#mWordIcon {
+    background-color: #2B579A;
+    transition: all .5s;
+}
+#mWordIcon:hover {
+    background-color: rgba(36,208,189,1);
+    transition: all .5s;
+}
+
+#abletonIcon {
+    background-color: #000000;
+    transition: all .5s;
+}
+#abletonIcon:hover {
+    background-color: rgba(36,208,189,1);
+    transition: all .5s;
+}
+
+#adobePrIcon {
+    background-color: #9999FF;
+    transition: all .5s;
+}
+#adobePrIcon:hover {
+    background-color: rgba(36,208,189,1);
+    transition: all .5s;
+}
+
+#adobeAEIcon {
+    background-color: #9999FF;
+    transition: all .5s;
+}
+#adobeAEIcon:hover {
+    background-color: rgba(36,208,189,1);
+    transition: all .5s;
+}

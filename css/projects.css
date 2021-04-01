@@ -1,0 +1,70 @@
+/*
+font-family: 'Assistant', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Playfair Display SC', serif;
+*/
+
+#projects {
+    display:inline-block;
+    padding: 0em 0 5em 0;
+    margin: 0 0 0em 0;
+}
+
+/* HEADER */
+.projectsTitle {
+    text-align:center;
+    padding: 5em 0 3em 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.projectsTitle hr {
+    background-color: White;
+    height: 5px;
+    width: 25%;
+    align-self: center;
+    border-radius: 5px;
+}
+
+#projectsHeader {
+    color: white;
+    font-family: 'Playfair Display SC', serif;
+    font-weight: 900;
+    font-size: 4em;
+}
+
+/* CARDS */
+
+.row {
+    margin: 0 1em;
+}
+
+
+.card-img-top{
+    height: 250px;
+}
+
+#blueBadgeCard {
+    padding: 0 20%;
+}
+
+#redBadgeCard {
+    padding: 0 20%;
+}
+
+.card-title {
+    font-family: 'Assistant', sans-serif;
+    font-variant: small-caps;
+    font-weight: 700;
+    font-size: 2em;
+}
+
+.card-text {
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.projectLink{
+    color: greenyellow;
+}

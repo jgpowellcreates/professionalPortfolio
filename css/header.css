@@ -109,6 +109,10 @@ h1 {
     z-index:3;
 }
 
+.btnSeeWork {
+    transition: all .5s;
+}
+
 .btnSeeWork :hover {
     background: linear-gradient(270deg, #00f6ff, #00a6be, #00be0c, #26e5a0);
     background-size: 800% 800%;
@@ -116,6 +120,7 @@ h1 {
     -moz-animation: buttonGradient 11s ease infinite;
     -o-animation: buttonGradient 11s ease infinite;
     animation: buttonGradient 11s ease infinite;
+    transition: all .5s;
 }
 @-webkit-keyframes buttonGradient {
     0%{background-position:0% 50%}

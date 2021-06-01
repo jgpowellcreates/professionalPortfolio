@@ -110,12 +110,21 @@
 /***************/
 
 .skillIcon {
-    width: 15%;
-    margin: 1em .3em;
-    padding: .5em;
+    width: 13%;
+    margin: .5em .2em;
+    padding: 0.2em;
     
     border-radius: 50%;
 } 
+
+#vscIcon {
+    background-color: #007ACC;
+    transition: all .5s;
+}
+#vscIcon:hover {
+    background-color: rgba(36,208,189,1);
+    transition: all .5s;
+}
 
 #html5Icon {
     background-color: #E34F26;
@@ -144,6 +153,60 @@
     transition: all .5s;
 }
 
+#typeScriptIcon {
+    background-color: #3178C6;
+    transition: all .5s;
+}
+#typeScriptIcon:hover {
+    background-color: rgba(36,208,189,1);
+    transition: all .5s;
+}
+
+#nodejsIcon {
+    background-color: #339933;
+    transition: all .5s;
+}
+#nodejsIcon:hover {
+    background-color: rgba(36,208,189,1);
+    transition: all .5s;
+}
+
+#gitIcon {
+    background-color: #F05032;
+    transition: all .5s;
+}
+#gitIcon:hover {
+    background-color: rgba(36,208,189,1);
+    transition: all .5s;
+}
+
+#postgreSQLIcon {
+    background-color: #4169E1;
+    transition: all .5s;
+}
+#postgreSQLIcon:hover {
+    background-color: rgba(36,208,189,1);
+    transition: all .5s;
+}
+
+#expressIcon {
+    background-color: #000000;
+    transition: all .5s;
+}
+#expressIcon:hover {
+    background-color: rgba(36,208,189,1);
+    transition: all .5s;
+}
+
+#reactIcon {
+    background-color: #61DAFB;
+    transition: all .5s;
+}
+#reactIcon:hover {
+    background-color: rgba(36,208,189,1);
+    transition: all .5s;
+}
+
 #bootStrapIcon {
     background-color: #7952B3;
     transition: all .5s;
@@ -153,11 +216,20 @@
     transition: all .5s;
 }
 
-#codeWarsIcon {
-    background-color: #B1361E;
-    transition: all .5s
+#tailwindIcon {
+    background-color: #38B2AC;
+    transition: all .5s;
 }
-#codeWarsIcon:hover {
+#tailwindIcon:hover {
+    background-color: rgba(36,208,189,1);
+    transition: all .5s;
+}
+
+#trelloIcon {
+    background-color: #0052CC;
+    transition: all .5s;
+}
+#trelloIcon:hover {
     background-color: rgba(36,208,189,1);
     transition: all .5s;
 }
